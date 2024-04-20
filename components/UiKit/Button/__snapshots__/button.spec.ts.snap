@@ -1,0 +1,55 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TedUiButton > renders correctly with custom props 1`] = `
+"<chorelinkoptional to="/"><button class="bg-blue text-white font-satoshiregular m-auto rounded px-6 py-2 flex gap-3 items-center text-paragraph hover:bg-white hover:text-blue"><span>Bouton</span>
+    <!--v-if-->
+  </button></chorelinkoptional>"
+`;
+
+exports[`TedUiButton > renders correctly with default props 1`] = `
+"<chorelinkoptional><button class="bg-blue text-white font-satoshiregular m-auto rounded px-6 py-2 flex gap-3 items-center text-paragraph hover:bg-white hover:text-blue">
+    <!--v-if--><span>Bouton</span>
+  </button></chorelinkoptional>"
+`;
+
+exports[`TedUiButton > renders correctly with primary color and contained variant 1`] = `
+"<chorelinkoptional><button class="bg-blue text-white font-satoshiregular m-auto rounded px-6 py-2 flex gap-3 items-center text-paragraph hover:bg-white hover:text-blue">
+    <!--v-if--><span>Bouton</span>
+  </button></chorelinkoptional>"
+`;
+
+exports[`TedUiButton > renders correctly with secondary color and contained variant 1`] = `
+"<chorelinkoptional><button class="bg-white text-blue font-satoshiregular m-auto rounded px-6 py-2 flex gap-3 items-center text-paragraph hover:bg-blue hover:text-white">
+    <!--v-if--><span>Bouton</span>
+  </button></chorelinkoptional>"
+`;
+
+exports[`TedUiButton > renders correctly with secondary color and outlined variant 1`] = `
+"<chorelinkoptional><button class="bg-white text-blue font-satoshiregular m-auto rounded border border-blue px-6 py-2 flex gap-3 items-center text-paragraph hover:bg-blue hover:text-white">
+    <!--v-if--><span>Bouton</span>
+  </button></chorelinkoptional>"
+`;
+
+exports[`TedUiButton > renders correctly with secondary color and right variant 1`] = `
+"<chorelinkoptional><button class="bg-white text-blue font-satoshiregular m-auto rounded px-6 py-2 flex gap-3 items-center text-paragraph"><span>Bouton</span>
+    <!--v-if-->
+  </button></chorelinkoptional>"
+`;
+
+exports[`TedUiButton > renders correctly with secondary color and shadow variant 1`] = `
+"<chorelinkoptional><button class="bg-white text-blue font-satoshiregular m-auto rounded shadow-md px-6 py-2 flex gap-3 items-center text-paragraph hover:bg-blue hover:text-white">
+    <!--v-if--><span>Bouton</span>
+  </button></chorelinkoptional>"
+`;
+
+exports[`TedUiButton > renders correctly with transparent color and text variant 1`] = `
+"<chorelinkoptional><button class="bg-transparent text-blue font-satoshiregular m-auto rounded-none p-0 flex gap-3 items-center text-paragraph"><span>Bouton</span>
+    <!--v-if-->
+  </button></chorelinkoptional>"
+`;
+
+exports[`TedUiButton > renders correctly with transparent color, text variant, and bold font 1`] = `
+"<chorelinkoptional><button class="bg-transparent text-blue font-satoshibold m-auto rounded-none p-0 flex gap-3 items-center text-paragraph">
+    <!--v-if--><span>Bouton</span>
+  </button></chorelinkoptional>"
+`;
